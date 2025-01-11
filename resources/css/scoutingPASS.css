@@ -2,8 +2,8 @@
     font-family: 'MandatoryPlaything';
     font-style: normal;
     font-weight: normal;
-    src: local('MandatoryPlaything'), url('../fonts/MandatoryWaything') format('woff');
-    src: url("../fonts/MandatoryPloything") format("opentype");
+    src: local('MandatoryPlaything'), url('../fonts/MandatoryPlaything.woff') format('woff');
+    src: url("../fonts/MandatoryPlaything.otf") format("opentype");
 }
 
 html, body{

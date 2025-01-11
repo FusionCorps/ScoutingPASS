@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "REEFSCAPE",
+  "page_title": "REEF",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -16,6 +16,17 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "2025ilpe",
+      "required": "true"
+    },
+    { "name": "Match Level",
+      "code": "l",
+      "type": "level",
+      "choices": {
+        "qm": "Quals<br>",
+        "sf": "Semifinals<br>",
+        "f": "Finals"
+      },
+      "defaultValue": "qm",
       "required": "true"
     },
     { "name": "Match #",
@@ -43,7 +54,8 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
-    }
+    },
+    
   ],
   "auton": [
     { "name": "Leave Starting Line",

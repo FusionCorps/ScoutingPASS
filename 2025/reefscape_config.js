@@ -37,15 +37,6 @@ var config_data = `
         "b3": "Blue-3"
       },
       "required":"true"
-      { "name": "Auto Start",
-      "code": "AS",
-      "type": "AutoStart",
-      "choices": {
-        "1": "Top",
-        "2": "Middle",
-        "3": "Bottom",
-      },
-      "required":"true"
     },
     { "name": "Team #",
       "code": "t",

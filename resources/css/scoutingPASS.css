@@ -38,7 +38,7 @@ html, body{
 }
 
 .button {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     font-size: 16px;
 }
 
@@ -108,7 +108,7 @@ html, body{
 }
 
 h1{
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     text-align: center;
     border-style: groove;
     border-color: white;
@@ -123,7 +123,7 @@ h1{
 }
 
 h2{
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -154,7 +154,7 @@ h2{
 }
 
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     padding: 10px;
     background-color: rgb(151, 199, 240);
     text-decoration: none;
@@ -162,14 +162,14 @@ h2{
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     background-color: black;
     padding: 10px;
     color: white;
 }
 
 .undoButton, .flipButton {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     background-color: black;
     padding: 10px;
     color: white;
@@ -177,13 +177,13 @@ h2{
 }
 
 #prevButton7, #prevButton8, #prevButton9{
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     background-color: rgb(151, 199, 240);
     padding: 10px;
 }
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     background-color: black;
     padding: 10px;
     color: white;
@@ -191,19 +191,19 @@ h2{
 }
 
 #prematch_table{
-    font: MandatoryPlaything;
+    font: Alexis;
     text-align: center;
 }
 
 
 h1 .odd {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     text-align: center;
     color: #0AB4EC;
 }
 
 h1 .even {
-    font-family: MandatoryPlaything;
+    font-family: Alexis;
     text-align: center;
     color: #42B333;
 }

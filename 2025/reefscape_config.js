@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "REEFSTCAPE",
+  "page_title": "REEEEE",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -10,6 +10,23 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
+      "required": "true"
+    },
+    { "name": "Event",
+      "code": "e",
+      "type": "event",
+      "defaultValue": "2025ilpe",
+      "required": "true"
+    },
+    { "name": "Match Level",
+      "code": "l",
+      "type": "level",
+      "choices": {
+        "qm": "Quals<br>",
+        "sf": "Semifinals<br>",
+        "f": "Finals"
+      },
+      "defaultValue": "qm",
       "required": "true"
     },
     { "name": "Match #",
@@ -37,6 +54,14 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
+    },
+    { "name": "Auto Start Position",
+      "code": "as",
+      "type": "clickable_image",
+      "filename": "2025/field_image.png",
+      "clickRestriction": "one",
+      "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
+      "shape": "circle 5 black red true"
     }
   ],
   "auton": [

@@ -92,11 +92,11 @@ var config_data = `
       "code": "tc4",
       "type": "counter"
     },
-    { "name": "Processor Score",
+    { "name": "Algae In Processor Score",
       "code": "tps",
       "type": "counter"
     },
-    { "name": "Net Score",
+    { "name": "Algae In Net Score",
       "code": "tns",
       "type": "counter"
     },

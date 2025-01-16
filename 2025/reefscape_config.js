@@ -4,7 +4,7 @@ var config_data = `
   "title": "Scouting PASS 2025",
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
-  "prematch": [
+  "PREmatch": [
     { "name": "Scouter Initials",
       "code": "s",
       "type": "scouter",

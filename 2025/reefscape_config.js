@@ -5,11 +5,11 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Name",
       "code": "s",
       "type": "scouter",
       "size": 5,
-      "maxSize": 2,
+      "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
@@ -42,8 +42,7 @@ var config_data = `
       "code": "t",
       "type": "team",
       "min": 1,
-      "max": 99999,
-      "maxsize": 5
+      "max": 99999
     }
   ],
   "auton": [
@@ -134,7 +133,7 @@ var config_data = `
     { "name": "Comments",
       "code": "co",
       "type": "text",
-      "size": 100,
+      "size": 60,
       "maxSize": 100
     }
   ]

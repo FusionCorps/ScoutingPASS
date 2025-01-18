@@ -1226,7 +1226,7 @@ function getCurrentMatch() {
 function updateMatchStart(event) {
   if ((getCurrentMatch() == "")
     ) {
-    console.log("No match or team data.");
+    console.log("No match or team daa.");
     return;
   }
   if (event.target.id.startsWith("input_r")) {

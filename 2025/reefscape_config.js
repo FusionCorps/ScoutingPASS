@@ -66,11 +66,11 @@ var config_data = `
       "code": "ac4",
       "type": "counter"
     },
-    { "name": "Processor Score",
+    { "name": "Algae in Processor Score",
       "code": "aps",
       "type": "counter"
     },
-    { "name": "Net Score",
+    { "name": "Algae in Net Score",
       "code": "ans",
       "type": "counter"
     }
@@ -111,7 +111,7 @@ var config_data = `
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
+        "ba": "Failed Climb<br>",
         "bs": "Shallow Cage<br>",
         "bd": "Deep Cage<br>",
         "x": "Not attempted"

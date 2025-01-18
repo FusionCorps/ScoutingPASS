@@ -1224,8 +1224,8 @@ function getCurrentMatch() {
 }
 
 function updateMatchStart(event) {
-  if ((getCurrentMatch() == "") ||
-    (!teams)) {
+  if ((getCurrentMatch() == "")
+    ) {
     console.log("No match or team data.");
     return;
   }

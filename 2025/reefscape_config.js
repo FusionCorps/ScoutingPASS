@@ -133,7 +133,7 @@ var config_data = `
     { "name": "Comments",
       "code": "co",
       "type": "text",
-      "size": 110,
+      "size": 55,
       "maxSize": 55
     }
   ]

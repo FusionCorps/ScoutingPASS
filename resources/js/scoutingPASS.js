@@ -1227,9 +1227,7 @@ function updateMatchStart(event) {
   if ((getCurrentMatch() == "") ||
     (!teams)) {
     console.log("No match or team data.");
-    console.log(document.getElementById("input_e").value);
-    console.log(document.getElementById("input_m").value)
-    console.log(getLevel());
+    console.log(document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value);
     return;
   }
   if (event.target.id.startsWith("input_r")) {

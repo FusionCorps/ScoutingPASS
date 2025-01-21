@@ -12,6 +12,12 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
+    { "name": "Event",
+      "code": "e",
+      "type": "event",
+      "defaultValue": "2024txfor",
+      "required": "true"
+    },
     { "name": "Match #",
       "code": "m",
       "type": "match",

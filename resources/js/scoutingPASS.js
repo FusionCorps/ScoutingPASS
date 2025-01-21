@@ -23,7 +23,7 @@ var options = {
 };
 
 // Must be filled in: e=event, m=match#, l=level(q,qf,sf,f), t=team#, r=robot(r1,r2,b1..), s=scouter
-var requiredFields = ["m", "t", "r", "s"];
+var requiredFields = ["e", "m", "t", "r", "s"];
 //var requiredFields = ["m", "t", "r", "s"];
 
 function addTimer(table, idx, name, data) {
@@ -873,7 +873,7 @@ function updateQRHeader() {
 
   if (!pitScouting) {
     str = str
-      .replace('!EVENT!', "2024txfor")
+      .replace('!EVENT!', document.getElementById("input_e").value)
       .replace('!MATCH!', document.getElementById("input_m").value)
       .replace('!ROBOT!', document.getElementById("display_r").value)
       .replace('!TEAM!', document.getElementById("input_t").value);
@@ -1216,7 +1216,7 @@ function getCurrentTeamNumberFromRobot() {
 }
 
 function getCurrentMatchKey() {
-  return "2024txfor" + "_" + getLevel() + document.getElementById("input_m").value;
+  return document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value;
 }
 
 function getCurrentMatch() {
@@ -1227,7 +1227,7 @@ function updateMatchStart(event) {
   if ((getCurrentMatch() == "") ||
     (!teams)) {
     console.log("No match or team data.");
-    console.log("2024txfor" + "_" + getLevel() + document.getElementById("input_m").value);
+    console.log(document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value);
     return;
   }
   if (event.target.id.startsWith("input_r")) {
@@ -1401,7 +1401,7 @@ function copyData(){
 window.onload = function () {
   let ret = configure();
   if (ret != -1) {
-    let ece = "2024txfor";
+    let ece = document.getElementById("input_e");
     let ec = null;
     if (ece != null) {
       ec = ece.value;

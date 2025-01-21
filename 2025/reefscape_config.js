@@ -16,7 +16,8 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "2024txfor",
-      "required": "true"
+      "required": "true",
+      "disabled": "true"
     },
     { "name": "Match #",
       "code": "m",

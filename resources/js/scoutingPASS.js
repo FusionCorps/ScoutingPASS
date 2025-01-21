@@ -873,7 +873,7 @@ function updateQRHeader() {
 
   if (!pitScouting) {
     str = str
-      .replace('!EVENT!', document.getElementById("input_e").value)
+      .replace('!EVENT!', "2024txfor")
       .replace('!MATCH!', document.getElementById("input_m").value)
       .replace('!ROBOT!', document.getElementById("display_r").value)
       .replace('!TEAM!', document.getElementById("input_t").value);
@@ -1216,7 +1216,7 @@ function getCurrentTeamNumberFromRobot() {
 }
 
 function getCurrentMatchKey() {
-  return document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value;
+  return "2024txfor" + "_" + getLevel() + document.getElementById("input_m").value;
 }
 
 function getCurrentMatch() {
@@ -1227,7 +1227,7 @@ function updateMatchStart(event) {
   if ((getCurrentMatch() == "") ||
     (!teams)) {
     console.log("No match or team data.");
-    console.log(document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value);
+    console.log("2024txfor" + "_" + getLevel() + document.getElementById("input_m").value);
     return;
   }
   if (event.target.id.startsWith("input_r")) {
@@ -1401,7 +1401,7 @@ function copyData(){
 window.onload = function () {
   let ret = configure();
   if (ret != -1) {
-    let ece = document.getElementById("input_e");
+    let ece = "2024txfor";
     let ec = null;
     if (ece != null) {
       ec = ece.value;

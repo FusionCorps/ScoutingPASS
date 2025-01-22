@@ -100,10 +100,6 @@ var config_data = `
     { "name": "Algae In Net Score",
       "code": "tns",
       "type": "counter"
-    },
-    { "name": "Scored in<br>Opponent<br>Processor",
-      "code": "opp",
-      "type": "bool"
     }
   ],
   "endgame": [

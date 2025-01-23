@@ -107,10 +107,10 @@ var config_data = `
       "code": "efs",
       "type":"radio",
       "choices": {
-        "bp": "Parked<br>",
-        "ba": "Failed Climb<br>",
-        "bs": "Shallow Cage<br>",
-        "bd": "Deep Cage<br>",
+        "pc": "Parked<br>",
+        "fc": "Failed Climb<br>",
+        "sc": "Shallow Cage<br>",
+        "dc": "Deep Cage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"

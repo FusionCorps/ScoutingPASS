@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024txfor",
+      "defaultValue": "2025week0",
       "required": "true",
       "disabled": "true"
     },
@@ -126,6 +126,16 @@ var config_data = `
         "1": "1 Poor Performance<br>"
       },
       "defaultValue": "x"
+    },
+    { "name": "Tippy",
+      "code": "tippy",
+      "type": "checkbox",
+      "tooltip": "Could/Did Fall Over"
+    },
+    { "name": "Dropper",
+      "code": "mc",
+      "type": "checkbox",
+      "tooltip": "Dropped Pieces Often"
     },
     { "name": "Comments",
       "code": "co",

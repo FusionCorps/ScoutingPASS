@@ -8,14 +8,14 @@ var config_data = `
     { "name": "Scouter",
       "code": "s",
       "type": "scouter",
-      "size": 5,
-      "maxSize": 5,
+      "size": 15,
+      "maxSize": 15,
       "required": "true"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025week0",
+      "defaultValue": "2025txwac",
       "required": "true",
       "disabled": "true"
     },
@@ -141,7 +141,7 @@ var config_data = `
       "code": "co",
       "type": "text",
       "size": 25,
-      "maxSize": 110
+      "maxSize": 200
     }
   ]
 }`;

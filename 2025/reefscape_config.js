@@ -137,6 +137,11 @@ var config_data = `
       "type": "checkbox",
       "tooltip": "Dropped Pieces Often"
     },
+    { "name": "Penalized",
+      "code": "Penalized",
+      "type": "checkbox",
+      "tooltip": "received penaltys for any reason, expound in comments"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",

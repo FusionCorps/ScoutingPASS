@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025txfor",
+      "defaultValue": "2025txcmp1",
       "required": "true",
       "disabled": "true"
     },
